@@ -1,39 +1,48 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-    <head>
-        <meta charset="utf-8">
-        <title>JQuery...</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-        <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-        <style>
-          #text-input {
-            width: 90%;
-            height: 200px;
-          }
-          #results {
-            font-weight: bold;
-            color: blue;
-            text-shadow: 2px 2px #ff0000; 
-            font-size: 40px;
-            text-decoration: line-through;
-            font-style: italic;
-            background-color: yellow;
-          }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <h1>Crazy text writer!</h1>
-            <p>Enter your text into the text area below, and watch what it turns into in the right column<p>
-            <p>HINT: First make two columns using bootstrap. And then create a jquery event to put the text from the text area into the right column</p>
-            
-            <textarea id="text-input"></textarea>
-            <div id="results">
-            </div>
-        </div>
-        <script>
-            
-        </script>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>JQuery...</title>
+    <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <header id="intro" class="page-header">
+            (hover over me to make my bg purple)
+            <h1>Animals (click me to change text)</h1>
+        </header>
+
+        <section class="frogs">
+            <h2>frogs (hover for green)</h2>
+            <p>A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Congratulations, you
+                played yourself. We don’t see them, we will never see them. It’s important to use cocoa butter. It’s the key to more success, why not live smooth? Why live rough? Let’s see what Chef Dee got that they don’t want us to eat. To be successful
+                you’ve got to work hard, to make history, simple, you’ve got to make it.</p>
+        </section>
+        <section class="geckos">
+            <h2>not frogs</h2>
+            <p>A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Congratulations, you
+                played yourself. We don’t see them, we will never see them. It’s important to use cocoa butter. It’s the key to more success, why not live smooth? Why live rough? Let’s see what Chef Dee got that they don’t want us to eat. To be successful
+                you’ve got to work hard, to make history, simple, you’ve got to make it.</p>
+        </section>
+        <section class="frogs">
+            <h2>frogs</h2>
+            <p>A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Congratulations, you
+                played yourself. We don’t see them, we will never see them. It’s important to use cocoa butter. It’s the key to more success, why not live smooth? Why live rough? Let’s see what Chef Dee got that they don’t want us to eat. To be successful
+                you’ve got to work hard, to make history, simple, you’ve got to make it.</p>
+        </section>
+        <section class="geckos">
+            <h2>geckos</h2>
+            <p>A major key, never panic. Don’t panic, when it gets crazy and rough, don’t panic, stay calm. In life you have to take the trash out, if you have trash in your life, take it out, throw it away, get rid of it, major key. Congratulations, you
+                played yourself. We don’t see them, we will never see them. It’s important to use cocoa butter. It’s the key to more success, why not live smooth? Why live rough? Let’s see what Chef Dee got that they don’t want us to eat. To be successful
+                you’ve got to work hard, to make history, simple, you’ve got to make it.</p>
+        </section>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.js"></script>
+</body>
+
 </html>
